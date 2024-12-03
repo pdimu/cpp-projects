@@ -4,8 +4,8 @@ using namespace std;
 int main()
 {
   int a, b, i;
-  cout << "First: "; cin >> a;
-  cout << "Second: "; cin >> b;
+  cout << "First floor to stop: "; cin >> a;
+  cout << "Second floor to stop: "; cin >> b;
   {
     {
       for (i = a; i == b; i++)
