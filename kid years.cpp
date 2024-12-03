@@ -4,16 +4,16 @@ using namespace std;
 int main() {
     int a, b;
 
-    cout << "Vârsta primului copil: ";
+    cout << "First kid is ... years old: ";
     cin >> a;
 
-    cout << "Vârsta a celui de-al doilea copil: ";
+    cout << "Second kid is ... years old: ";
     cin >> b;
 
     if (a > b) {
-        cout << "Primul copil e mai mare cu " << (a - b) << " ani.\n";
+        cout << "First kid is bigger than the other one with " << (a - b) << " years.\n";
     } else if (b > a) {
-        cout << "Al doilea copil e mai mare cu " << (b - a) << " ani.\n";
+        cout << "Second kid is bigger than the other one with " << (b - a) << " years.\n";
     }
     return 0;
 }
