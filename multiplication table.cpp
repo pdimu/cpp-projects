@@ -4,7 +4,7 @@ using namespace std;
 int main() 
 {
   int c;
-  cout << "Introdu c: ";
+  cout << "Type c variable: ";
   cin >> c;
 
   for (int a = 1; a <= 9; ++a) 
